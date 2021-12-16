@@ -12,7 +12,9 @@
 		$img      = $_POST['img'];
 
 		if(empty($name) || empty($email) || empty($phone) || empty($password) || empty($cPassword) || empty($img)){
-			header('location: ../views/register.php?error=null_value1');
+			header('location: ../views/register.php?error=null_value');
+		}elseif($password != $cPassword){
+			header('location: ../views/register.php?error=please_try_again');
 		}else{
 
 			$user = [

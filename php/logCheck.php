@@ -26,8 +26,6 @@
 
 
 			if($status){
-				$status['id'] = $id;
-				$status['name'] = $name;
 				if($status['userType'] == "consumer"){
 					$_SESSION['name'] = $name;
 					$_SESSION['email'] = $email;
@@ -35,16 +33,16 @@
 					$_SESSION['img'] = $img;
 					$_SESSION['userType'] = $userType;
 
-					header('location: ../views/consumerPage.php');
+					header('location: ../views/consumer/index.php');
 				} 
-				else if($status['userType'] == "distributor"){
+				else if($status['userType'] == "admin"){
 					$_SESSION['name'] = $name;
 					$_SESSION['email'] = $email;
 					$_SESSION['id'] = $id;
 					$_SESSION['img'] = $img;
 					$_SESSION['userType'] = $userType;
 					
-					header('location: ../views/distributorPage.php');
+					header('location: ../views/admin/index.php');
 				}
 				else{
 					echo "sorry!!!";
