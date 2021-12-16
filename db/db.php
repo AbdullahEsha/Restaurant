@@ -3,7 +3,7 @@
 	$host	= "localhost";
 	$dbuser = "root";
 	$dbpass = "";
-	$dbname	= "etds";
+	$dbname	= "restdb";
 
 	function dbConnection(){
 		global $host;

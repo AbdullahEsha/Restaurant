@@ -189,8 +189,8 @@
 		if(!$conn){
 			echo "DB connection error";
 		}
-
-		$sql = "insert into users values('', '{$user['name']}','{$user['email']}', '{$user['password']}', 'consumer', '{$user['nid']}', '{$user['img']}', '{$user['phone']}')";
+		
+		$sql = "INSERT INTO `users` VALUES ('','{$user['name']}','{$user['email']}','{$user['phone']}','{$user['img']}','{$user['password']}','consumer')";
 	
 		if(mysqli_query($conn, $sql)){
 			return true;

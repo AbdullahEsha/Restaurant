@@ -8,10 +8,10 @@
 		$email    = $_POST['email'];
 		$phone    = $_POST['phone'];
 		$password = $_POST['password'];
-		$nid      = $_POST['nid'];
+		$cPassword= $_POST['conPassword'];
 		$img      = $_POST['img'];
 
-		if(empty($name) || empty($email) || empty($phone) || empty($password) || empty($nid) || empty($img)){
+		if(empty($name) || empty($email) || empty($phone) || empty($password) || empty($cPassword) || empty($img)){
 			header('location: ../views/register.php?error=null_value1');
 		}else{
 
@@ -20,7 +20,6 @@
 				'email'=> $email,
 				'phone'=> $phone,
 				'password'=> $password,
-				'nid'=> $nid,
 				'img'=> $img
 			];
 
