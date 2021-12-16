@@ -9,7 +9,7 @@
 
 ?>
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
 	<title>Register</title>
@@ -23,8 +23,6 @@
 	<link rel="stylesheet" href="../assets/login.css">
 </head>
 
-
-
 <body class="main-bg">
     <div class="login-container text-c animated flipInX">
             <div>
@@ -35,22 +33,22 @@
             <div class="container-content">
                 <form class="margin-t" action="../php/regCheck.php" method="post">
                     <div class="form-group">
-                        <input type="text" name="name" class="form-control" placeholder="Enter your Name" required="">
+                        <input type="text" name="name" class="form-control" placeholder="Enter your Name" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" name="email" class="form-control" placeholder="Enter your Email" required="">
+                        <input type="email" name="email" class="form-control" placeholder="Enter your Email" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="phone" class="form-control" placeholder="Enter your Phone Number" required="">
+                        <input type="text" name="phone" class="form-control" placeholder="Enter your Phone Number" required>
                     </div>
                     <div class="form-group">
-                        <input type="password" name="password" class="form-control" placeholder="Enter your Password" required="">
+                        <input type="password" name="password" class="form-control" placeholder="Enter your Password" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="nid" class="form-control" placeholder="Enter your NID" required="">
+                        <input type="text" name="nid" class="form-control" placeholder="Enter your NID" required>
                     </div>
                     <div class="form-group">
-                        <input type="file" name="img" class="form-control" required="">
+                        <input type="file" name="img" class="form-control" required>
                     </div>
                     <button type="submit" class="form-button button-l margin-b" name="submit">Sign In</button>
     
@@ -60,5 +58,41 @@
                 <p class="margin-t text-whitesmoke"><small> Your Name &copy; 2021</small> </p>
             </div>
         </div>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="../assets/css/login.css">
+</head>
+<body class="main-bg">
+    <div class="wrapper fadeInDown">
+      <div id="formContent">
+        <!-- Tabs Titles -->
+        <!-- Icon -->
+        <div class="fadeIn first">
+          <img src="../assets/img/img5.png" id="icon" alt="User Icon" />
+        </div>
+        <!-- Login Form -->
+        <form method="post">
+          <input type="text" id="login" class="fadeIn second" name="name" placeholder="Enter your name." required>
+          <input type="text" id="login" class="fadeIn second" name="email" placeholder="Enter your email." required>
+          <input type="text" id="login" class="fadeIn second" name="phone" placeholder="Enter your phone number." required>
+          <input type="password" id="password" class="fadeIn third" name="password" placeholder="Enter Password." required>
+          <input type="password" id="password" class="fadeIn third" name="conPassword" placeholder="Confirm Password." required>
+          <input type="file" id="login" class="fadeIn second" name="img" required>
+          <input type="submit" class="fadeIn fourth" value="Submit">
+        </form>
+      </div>
+    </div>
 </body>
 </html>

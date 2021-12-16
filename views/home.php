@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-<link rel="stylesheet" href="..//assets/css/home.css">
+<link rel="stylesheet" href="../assets/css/home.css">
 
 <body>
 
@@ -46,18 +46,18 @@
   <!-- Photo grid (modal) -->
   <div class="w3-row-padding">
     <div class="w3-third">
-      <img src="..//assets/img/img.png" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
-      <img src="..//assets/img/img.png" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
-      <img src="..//assets/img/img.png" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
+      <img src="../assets/img/img.png" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+      <img src="../assets/img/img.png" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+      <img src="../assets/img/img.png" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
     </div>
     <div class="w3-third">
-      <img src="..//assets/img/img.png" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
-      <img src="..//assets/img/img.png" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
-      <img src="..//assets/img/img.png" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
+      <img src="../assets/img/img.png" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+      <img src="../assets/img/img.png" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+      <img src="../assets/img/img.png" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
     </div>
     <div class="w3-third">
-      <img src="..//assets/img/img.png" style="width:100%" alt="Windows for the atrium">
-      <img src="..//assets/img/img.png" style="width:100%" alt="Bedroom and office in one space">
+      <img src="../assets/img/img.png" style="width:100%" alt="Windows for the atrium">
+      <img src="../assets/img/img.png" style="width:100%" alt="Bedroom and office in one space">
       <a href="google.com"><img src="..//assets/img/img.png" style="width:100%" alt="Scandinavian design"></a>
     </div>
   </div>
@@ -98,7 +98,7 @@
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="..//assets/img/img.png" alt="John" style="width:100%">
+        <img src="../assets/img/img.png" alt="John" style="width:100%">
         <div class="w3-container">
           <h3>John Doe</h3>
           <p class="w3-opacity">CEO & Founder</p>
@@ -108,7 +108,7 @@
     </div>
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="..//assets/img/img.png" alt="Jane" style="width:100%">
+        <img src="../assets/img/img.png" alt="Jane" style="width:100%">
         <div class="w3-container">
           <h3>Jane Doe</h3>
           <p class="w3-opacity">Designer</p>
@@ -118,7 +118,7 @@
     </div>
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="..//assets/img/img.png" alt="Mike" style="width:100%">
+        <img src="../assets/img/img.png" alt="Mike" style="width:100%">
         <div class="w3-container">
           <h3>Mike Ross</h3>
           <p class="w3-opacity">Architect</p>
