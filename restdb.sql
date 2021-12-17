@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 16, 2021 at 07:24 PM
+-- Generation Time: Dec 17, 2021 at 01:10 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.11
 
@@ -29,6 +29,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `foods` (
   `id` int(11) NOT NULL,
+  `img` text NOT NULL,
   `name` text NOT NULL,
   `type` text NOT NULL,
   `price` int(10) NOT NULL,
@@ -36,6 +37,13 @@ CREATE TABLE `foods` (
   `isFeatured` text NOT NULL,
   `isAvailable` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `foods`
+--
+
+INSERT INTO `foods` (`id`, `img`, `name`, `type`, `price`, `discount`, `isFeatured`, `isAvailable`) VALUES
+(1, 'food3.jpg', 'food', 'xyz', 200, 10, 'yes', 'yes');
 
 -- --------------------------------------------------------
 
@@ -58,7 +66,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `phone`, `img`, `password`, `userType`) VALUES
-(1, 'Shahriar', 'shahriar@gmail.com', '01521431502', 'img.png', '12345', 'consumer'),
+(1, 'Shahriar', 'shahriar@gmail.com', '01521431502', 'img.png', '12345', 'admin'),
 (2, 'Saqibur', 'shahariaresha2@gmail.com', '01748292210', 'img4.png', '123', 'consumer');
 
 --
@@ -85,7 +93,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `foods`
 --
 ALTER TABLE `foods`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `users`
