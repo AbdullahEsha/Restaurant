@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>W3.CSS Template</title>
+<title>Restaurant</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -17,9 +17,9 @@
   </div>
   <div class="w3-bar-block">
     <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
-    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Showcase</a> 
+    <a href="#menuList" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Menu List</a> 
     <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a> 
-    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Designers</a> 
+    <a href="#aboutus" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About Us</a> 
     <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
   </div>
 </nav>
@@ -37,29 +37,32 @@
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
   <!-- Header -->
-  <div class="w3-container" style="margin-top:80px" id="showcase">
-    <h1 class="w3-jumbo"><b>Interior Design</b></h1>
-    <h1 class="w3-xxxlarge w3-text-grey"><b>Showcase.</b></h1>
+  <div class="w3-container" style="margin-top:80px" id="menuList">
+    <h1 class="w3-xxxlarge w3-text-grey"><b>Menu List.</b></h1>
     <hr style="width:50px;border:5px solid grey" class="w3-round">
   </div>
   
   <!-- Photo grid (modal) -->
   <div class="w3-row-padding">
     <div class="w3-third">
-      <img src="../assets/img/img.png" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
-      <img src="../assets/img/img.png" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
-      <img src="../assets/img/img.png" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
+      <img src="../assets/img/food1.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+      <img src="../assets/img/food2.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+      <img src="../assets/img/food3.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
     </div>
     <div class="w3-third">
-      <img src="../assets/img/img.png" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
-      <img src="../assets/img/img.png" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
-      <img src="../assets/img/img.png" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
+      <img src="../assets/img/food4.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+      <img src="../assets/img/food5.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+      <img src="../assets/img/food6.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
     </div>
     <div class="w3-third">
-      <img src="../assets/img/img.png" style="width:100%" alt="Windows for the atrium">
-      <img src="../assets/img/img.png" style="width:100%" alt="Bedroom and office in one space">
-      <a href="google.com"><img src="..//assets/img/img.png" style="width:100%" alt="Scandinavian design"></a>
+      <img src="../assets/img/food7.jpg" style="width:100%" alt="Windows for the atrium">
+      <img src="../assets/img/food8.jpg" style="width:100%" alt="Bedroom and office in one space">
+      <a href="google.com"><img src="..//assets/img/food9.jpg" style="width:100%" alt="Scandinavian design"></a>
     </div>
+  </div>
+
+  <div class="w3-section" align="center">
+    <a href="google.com" id="mview" class="w3-xxlarge w3-text-grey" style="text-decoration: none;">View All...>></a>
   </div>
 
   <!-- Modal for full size images on click-->
@@ -82,9 +85,9 @@
     </p>
   </div>
   
-  <!-- Designers -->
-  <div class="w3-container" id="designers" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-grey"><b>Designers.</b></h1>
+  <!-- about us -->
+  <div class="w3-container" id="aboutus" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-grey"><b>About Us.</b></h1>
     <hr style="width:50px;border:5px solid grey" class="w3-round">
     <p>The best team in the world.</p>
     <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
