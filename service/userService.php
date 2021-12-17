@@ -127,41 +127,22 @@
 		return $theft1;
 	}
 
-	function getAllMain(){
+	function getmenu(){
 		$conn = dbConnection();
 
 		if(!$conn){
 			echo "DB connection error";
 		}
 
-		$sql = "select * from main";
+		$sql = "select * from foods";
 		$result = mysqli_query($conn, $sql);
-		$main = [];
+		$menu = [];
 
 		while($row = mysqli_fetch_assoc($result)){
-			array_push($main, $row);
+			array_push($menu, $row);
 		}
 
-		return $main;
-	}
-
-
-	function getAllUser(){
-		$conn = dbConnection();
-
-		if(!$conn){
-			echo "DB connection error";
-		}
-
-		$sql = "select * from users where userType='consumer'";
-		$result = mysqli_query($conn, $sql);
-		$users = [];
-
-		while($row = mysqli_fetch_assoc($result)){
-			array_push($users, $row);
-		}
-
-		return $users;
+		return $menu;
 	}
 
 

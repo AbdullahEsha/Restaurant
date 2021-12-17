@@ -6,7 +6,7 @@
   background-image: url('/css/searchicon.png');
   background-position: 10px 10px;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 70%;
   font-size: 16px;
   padding: 12px 20px 12px 40px;
   border: 1px solid #ddd;
@@ -15,20 +15,15 @@
 
 #myTable {
   border-collapse: collapse;
-  width: 100%;
+  width: 70%;
   border: 1px solid #ddd;
   font-size: 18px;
-}
-
-#myTable th, #myTable td {
-  text-align: left;
-  padding: 12px;
 }
 
 #myTable tr {
   border-bottom: 1px solid #ddd;
 }
 
-#myTable tr.header, #myTable tr:hover {
+#myTable:hover {
   background-color: #f1f1f1;
 }
