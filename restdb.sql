@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 17, 2021 at 01:10 PM
+-- Generation Time: Dec 20, 2021 at 06:45 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.11
 
@@ -43,7 +43,9 @@ CREATE TABLE `foods` (
 --
 
 INSERT INTO `foods` (`id`, `img`, `name`, `type`, `price`, `discount`, `isFeatured`, `isAvailable`) VALUES
-(1, 'food3.jpg', 'food', 'xyz', 200, 10, 'yes', 'yes');
+(1, 'food7.jpg', 'food', 'xyz', 200, 10, 'yes', 'yes'),
+(2, 'food2.jpg', 'food', 'none', 250, 13, 'yes', 'yes'),
+(3, 'food9.jpg', 'food', 'none', 230, 10, 'yes', 'yes');
 
 -- --------------------------------------------------------
 
@@ -93,7 +95,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `foods`
 --
 ALTER TABLE `foods`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `users`
