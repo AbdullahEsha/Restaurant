@@ -2,3 +2,15 @@ body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
 body {font-size:16px;}
 .w3-third img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
 .w3-third img:hover{opacity:1}
+#mview {
+    text-decoration: none;
+    border: 5px solid #ddd;
+    padding: 10px 10px 10px 10px;
+    color: black;
+    font-weight: bold;
+    box-shadow: 3px 7px;
+}
+
+#mview:hover {
+    background-color: #ddd;
+}

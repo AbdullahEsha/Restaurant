@@ -60,7 +60,8 @@
       <img height="320px" width="380px" src="../assets/img/food9.jpg" style="width:100%" alt="Scandinavian design">
     </div>
   </div>
-
+  <br>
+  <br>
   <div class="w3-section" align="center">
     <a href="menuList.php" id="mview" class="w3-xxlarge w3-text-grey" style="text-decoration: none;">View All...>></a>
   </div>
@@ -101,7 +102,7 @@
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="../assets/img/chef.jpg" alt="John" style="width:100%">
+        <img src="../assets/img/chef.jpg" alt="John" height="400px" width="100%">
         <div class="w3-container">
           <h3>John Doe</h3>
           <p class="w3-opacity">Assistant Chef</p>
@@ -111,7 +112,7 @@
     </div>
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="../assets/img/chef2.jpg" alt="Jane" style="width:100%">
+        <img src="../assets/img/chef2.jpg" alt="Jane" height="400px" width="100%">
         <div class="w3-container">
           <h3>Jane Doe</h3>
           <p class="w3-opacity">Head Chef</p>
@@ -121,7 +122,7 @@
     </div>
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="../assets/img/chef3.jpg" alt="Mike" style="width:100%">
+        <img src="../assets/img/chef3.jpg" alt="Mike" height="400px" width="100%">
         <div class="w3-container">
           <h3>Mike Ross</h3>
           <p class="w3-opacity">Assistant Chef</p>
