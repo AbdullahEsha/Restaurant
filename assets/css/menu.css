@@ -24,6 +24,28 @@
   border-bottom: 1px solid #ddd;
 }
 
-#myTable:hover {
-  background-color: #f1f1f1;
+#slcet {
+  width: 10%;
+  padding: 12px 20px 12px 40px;
+}
+#phone {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 20.5%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#ord {
+  text-decoration: none;
+  border: 2px solid #ddd;
+  padding: 10px 10px 10px 10px;
+  color: black;
+  background-color: rgb(137, 137, 138);
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  font-weight: bold;
 }

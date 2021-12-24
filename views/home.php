@@ -45,24 +45,24 @@
   <!-- Photo grid (modal) -->
   <div class="w3-row-padding">
     <div class="w3-third">
-      <img src="../assets/img/food1.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
-      <img src="../assets/img/food2.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
-      <img src="../assets/img/food3.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
+      <img height="320px" width="380px" src="../assets/img/food1.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+      <img height="320px" width="380px" src="../assets/img/food2.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+      <img height="320px" width="380px" src="../assets/img/food3.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
     </div>
     <div class="w3-third">
-      <img src="../assets/img/food4.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
-      <img src="../assets/img/food5.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
-      <img src="../assets/img/food6.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
+      <img height="320px" width="380px" src="../assets/img/food4.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+      <img height="320px" width="380px" src="../assets/img/food5.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+      <img height="320px" width="380px" src="../assets/img/food6.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
     </div>
     <div class="w3-third">
-      <img src="../assets/img/food7.jpg" style="width:100%" alt="Windows for the atrium">
-      <img src="../assets/img/food8.jpg" style="width:100%" alt="Bedroom and office in one space">
-      <a href="google.com"><img src="../assets/img/food9.jpg" style="width:100%" alt="Scandinavian design"></a>
+      <img height="320px" width="380px" src="../assets/img/food7.jpg" style="width:100%" alt="Windows for the atrium">
+      <img height="320px" width="380px" src="../assets/img/food8.jpg" style="width:100%" alt="Bedroom and office in one space">
+      <img height="320px" width="380px" src="../assets/img/food9.jpg" style="width:100%" alt="Scandinavian design">
     </div>
   </div>
 
   <div class="w3-section" align="center">
-    <a href="google.com" id="mview" class="w3-xxlarge w3-text-grey" style="text-decoration: none;">View All...>></a>
+    <a href="menuList.php" id="mview" class="w3-xxlarge w3-text-grey" style="text-decoration: none;">View All...>></a>
   </div>
 
   <!-- Modal for full size images on click-->
