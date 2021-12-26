@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 20, 2021 at 06:45 PM
+-- Generation Time: Dec 26, 2021 at 07:22 AM
 -- Server version: 10.4.21-MariaDB
--- PHP Version: 8.0.11
+-- PHP Version: 8.0.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -50,6 +50,23 @@ INSERT INTO `foods` (`id`, `img`, `name`, `type`, `price`, `discount`, `isFeatur
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `payment`
+--
+
+CREATE TABLE `payment` (
+  `p_id` int(11) NOT NULL,
+  `c_id` int(11) NOT NULL,
+  `f_id` int(11) NOT NULL,
+  `n_unit` int(11) NOT NULL,
+  `price` float NOT NULL,
+  `p_method` text NOT NULL,
+  `phone` text NOT NULL,
+  `isAccept` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `users`
 --
 
@@ -82,6 +99,12 @@ ALTER TABLE `foods`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `payment`
+--
+ALTER TABLE `payment`
+  ADD PRIMARY KEY (`p_id`);
+
+--
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
@@ -96,6 +119,12 @@ ALTER TABLE `users`
 --
 ALTER TABLE `foods`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT for table `payment`
+--
+ALTER TABLE `payment`
+  MODIFY `p_id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `users`
