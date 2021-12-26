@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Restaurant</title>
+<title>Foods</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-<link rel="stylesheet" href="../../assets/css/home.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="../../assets/css/menu.css">
 
 <body>
 
@@ -16,11 +17,11 @@
     <h3 class="w3-padding-64"><b>XYZ<br>Restaurant</b></h3>
   </div>
   <div class="w3-bar-block">
-    <a href="acceptPayment.php"  class="w3-bar-item w3-button w3-hover-white">Accept Payment</a> 
     <a href="allFoods.php" class="w3-bar-item w3-button w3-hover-white">All Foods</a> 
+    <a href="acceptPayment.php"  class="w3-bar-item w3-button w3-hover-white">Accept Payment</a> 
     <a href="upload.php" class="w3-bar-item w3-button w3-hover-white">Upload</a> 
     <a href="contacts.php" class="w3-bar-item w3-button w3-hover-white">Contacts</a> 
-    <a href="../home.php" class="w3-bar-item w3-button w3-hover-white">logout</a>
+    <a href="../../php/logout.php" class="w3-bar-item w3-button w3-hover-white">logout</a>
   </div>
 </nav>
 
@@ -40,6 +41,28 @@
   <div class="w3-container" style="margin-top:80px" id="menuList">
     <h1 class="w3-xxxlarge w3-text-grey"><b>Menu List.</b></h1>
     <hr style="width:50px;border:5px solid grey" class="w3-round">
+    <div class="form-group" align="center">
+    <select class="form-group col-md-6" id="slcet">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select>
+    <select class="form-group col-md-6" id="slcet">
+      <option value="Bkash">Bkash</option>
+      <option value="Nogat">Nogat</option>
+      <option value="Rocket">Rocket</option>
+    </select>
+  </div>
+  <div class="form-group" align="center">
+    <input type="text" id="phone" placeholder="Enter your account number...">
+    <input type="hidden" name="f_id"  value="">
+    <input type="hidden" name="c_id"  value="">
+    <input type="hidden" name="price"  value="">
+    <input type="hidden" name="phone"  value="">
+  </div>
+  <div class="form-group" align="center">
+    <input type="button" class="btn btn-outline-info btn-lg" value="Confirm">
+  </div>
   </div>
 </div>
 

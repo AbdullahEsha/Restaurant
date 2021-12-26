@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Restaurant</title>
+<title>Foods</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-<link rel="stylesheet" href="../../assets/css/home.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="../../assets/css/admin.css">
 
 <body>
 
@@ -16,11 +17,11 @@
     <h3 class="w3-padding-64"><b>XYZ<br>Restaurant</b></h3>
   </div>
   <div class="w3-bar-block">
-    <a href="acceptPayment.php"  class="w3-bar-item w3-button w3-hover-white">Accept Payment</a> 
     <a href="allFoods.php" class="w3-bar-item w3-button w3-hover-white">All Foods</a> 
+    <a href="acceptPayment.php"  class="w3-bar-item w3-button w3-hover-white">Accept Payment</a> 
     <a href="upload.php" class="w3-bar-item w3-button w3-hover-white">Upload</a> 
     <a href="contacts.php" class="w3-bar-item w3-button w3-hover-white">Contacts</a> 
-    <a href="../home.php" class="w3-bar-item w3-button w3-hover-white">logout</a>
+    <a href="../../php/logout.php" class="w3-bar-item w3-button w3-hover-white">logout</a>
   </div>
 </nav>
 
@@ -40,11 +41,34 @@
   <div class="w3-container" style="margin-top:80px" id="menuList">
     <h1 class="w3-xxxlarge w3-text-grey"><b>Menu List.</b></h1>
     <hr style="width:50px;border:5px solid grey" class="w3-round">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+    <table id="myTable">
+     <tr class="header">
+       <th style="width:60%;">Name</th>
+       <th style="width:40%;">Country</th>
+     </tr>
+     <tr>
+       <td>Alfreds Futterkiste</td>
+       <td>Germany</td>
+     </tr>
+     <tr>
+       <td>Berglunds snabbkop</td>
+       <td>Sweden</td>
+     </tr>
+     <tr>
+       <td>Island Trading</td>
+       <td>UK</td>
+     </tr>
+     <tr>
+       <td>Koniglich Essen</td>
+       <td>Germany</td>
+     </tr>
+   </table>
   </div>
 </div>
 
 <!-- W3.CSS Container -->
 <div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
-<script src="../../assets/js/home.js"></script>
+<script src="../../assets/js/admin.js"></script>
 </body>
 </html>
