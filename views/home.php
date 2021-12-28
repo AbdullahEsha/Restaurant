@@ -16,7 +16,7 @@
     <h3 class="w3-padding-64"><b>XYZ<br>Restaurant</b></h3>
   </div>
   <div class="w3-bar-block">
-    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="consumer/allOrders.php" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">My Dashboard</a> 
     <a href="#menuList" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Menu List</a> 
     <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a> 
     <a href="#aboutus" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About Us</a> 
@@ -27,7 +27,7 @@
 <!-- Top menu on small screens -->
 <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
   <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
-  <span>Company Name</span>
+  <span>XYZ Restaurant</span>
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->

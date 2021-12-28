@@ -17,18 +17,18 @@
     <h3 class="w3-padding-64"><b>XYZ<br>Restaurant</b></h3>
   </div>
   <div class="w3-bar-block">
-    <a href="allFoods.php" class="w3-bar-item w3-button w3-hover-white">All Foods</a> 
-    <a href="acceptPayment.php"  class="w3-bar-item w3-button w3-hover-white">Accept Payment</a> 
-    <a href="upload.php" class="w3-bar-item w3-button w3-hover-white">Upload</a> 
-    <a href="contacts.php" class="w3-bar-item w3-button w3-hover-white">Contacts</a> 
-    <a href="../../php/logout.php" class="w3-bar-item w3-button w3-hover-white">logout</a>
+    <a href="allFoods.php" class="w3-bar-item w3-button w3-hover-white" id="ix">All Foods</a> 
+    <a href="acceptPayment.php"  class="w3-bar-item w3-button w3-hover-white" id="ix2">Accept Payment</a> 
+    <a href="upload.php" class="w3-bar-item w3-button w3-hover-white" id="ix3">Upload</a> 
+    <a href="contacts.php" class="w3-bar-item w3-button w3-hover-white" id="ix4">Contacts</a> 
+    <a href="../../php/logout.php" class="w3-bar-item w3-button w3-hover-white" id="ix5">logout</a>
   </div>
 </nav>
 
 <!-- Top menu on small screens -->
 <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
   <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
-  <span>Company Name</span>
+  <span>XYZ Restaurant</span>
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -44,24 +44,29 @@
     <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
     <table id="myTable">
      <tr class="header">
-       <th style="width:60%;">Name</th>
-       <th style="width:40%;">Country</th>
+       <th>ID</th>
+       <th>Image</th>
+       <th>Name</th>
+       <th>Type</th>
+       <th>Price(tk)</th>
+       <th>Discount(%)</th>
+       <th>Is Featured</th>
+       <th>Is Available</th>
+       <th>Action</th>
      </tr>
      <tr>
-       <td>Alfreds Futterkiste</td>
-       <td>Germany</td>
-     </tr>
-     <tr>
-       <td>Berglunds snabbkop</td>
-       <td>Sweden</td>
-     </tr>
-     <tr>
-       <td>Island Trading</td>
-       <td>UK</td>
-     </tr>
-     <tr>
-       <td>Koniglich Essen</td>
-       <td>Germany</td>
+       <td>1</td>
+       <td><img src="../../assets/img/food7.jpg" alt="food" height="100px" width="100px"></td>
+       <td>Coffee</td>
+       <td>Drinks</td>
+       <td>150</td>
+       <td>13</td>
+       <td>Yes</td>
+       <td>Yes</td>
+       <td>
+         <a href="update.php"><button type="button" class="btn btn-outline-info btn-sm">Update</button></a>
+         <a href="delete.php"><button type="button" class="btn btn-outline-danger btn-sm">Delete</button></a>
+       </td>
      </tr>
    </table>
   </div>

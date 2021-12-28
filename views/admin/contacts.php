@@ -17,11 +17,11 @@
     <h3 class="w3-padding-64"><b>XYZ<br>Restaurant</b></h3>
   </div>
   <div class="w3-bar-block">
-    <a href="allFoods.php" class="w3-bar-item w3-button w3-hover-white">All Foods</a> 
-    <a href="acceptPayment.php"  class="w3-bar-item w3-button w3-hover-white">Accept Payment</a> 
-    <a href="upload.php" class="w3-bar-item w3-button w3-hover-white">Upload</a> 
-    <a href="contacts.php" class="w3-bar-item w3-button w3-hover-white">Contacts</a> 
-    <a href="../../php/logout.php" class="w3-bar-item w3-button w3-hover-white">logout</a>
+    <a href="allFoods.php" class="w3-bar-item w3-button w3-hover-white" id="ix">All Foods</a> 
+    <a href="acceptPayment.php"  class="w3-bar-item w3-button w3-hover-white" id="ix2">Accept Payment</a> 
+    <a href="upload.php" class="w3-bar-item w3-button w3-hover-white" id="ix3">Upload</a> 
+    <a href="contacts.php" class="w3-bar-item w3-button w3-hover-white" id="ix4">Contacts</a> 
+    <a href="../../php/logout.php" class="w3-bar-item w3-button w3-hover-white" id="ix5">logout</a>
   </div>
 </nav>
 
@@ -44,24 +44,18 @@
     <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
     <table id="myTable">
      <tr class="header">
-       <th style="width:60%;">Name</th>
-       <th style="width:40%;">Country</th>
+       <th>ID</th>
+       <th>Name</th>
+       <th>Email</th>
+       <th>Message</th>
+       <th>Action</th>
      </tr>
      <tr>
-       <td>Alfreds Futterkiste</td>
-       <td>Germany</td>
-     </tr>
-     <tr>
-       <td>Berglunds snabbkop</td>
-       <td>Sweden</td>
-     </tr>
-     <tr>
-       <td>Island Trading</td>
-       <td>UK</td>
-     </tr>
-     <tr>
-       <td>Koniglich Essen</td>
-       <td>Germany</td>
+       <td>1</td>
+       <td>Shahriar</td>
+       <td>shahriar@gmai.com</td>
+       <td>Service were good keep it up</td>
+       <td><a href="mailto:shahriar@gmai.com"><img src="https://i.pinimg.com/originals/d8/f5/5f/d8f55f2e12c554253f7386c6cf774832.png" alt="mail" height="40px"></a></td>
      </tr>
    </table>
   </div>
