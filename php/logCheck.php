@@ -42,7 +42,7 @@
 					$_SESSION['img'] = $img;
 					$_SESSION['userType'] = $userType;
 					
-					header('location: ../views/admin/index.php');
+					header('location: ../views/admin/allFoods.php');
 				}
 				else{
 					echo "sorry!!!";

@@ -43,8 +43,20 @@
   <div class="w3-container" style="margin-top:80px" id="menuList">
     <h1 class="w3-xxxlarge w3-text-grey"><b>Menu List.</b></h1>
     <hr style="width:50px;border:5px solid grey" class="w3-round">
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
-    <h1><?=$_SESSION['name']?></h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="form-group" align="center">
+      <img src="../../assets/img/<?=$_SESSION['img']?>" alt="food" height="280px">
+    </div>
+    <div class="form-group" align="center" style="border-style: groove;">
+      <h4>Name: <?=$_SESSION['name']?></h4>
+    </div>
+    <div class="form-group" align="center" style="border-style: groove;">
+      <h4>Email: <?=$_SESSION['email']?></h4>
+    </div>
+    </div>
   </div>
 </div>
 
