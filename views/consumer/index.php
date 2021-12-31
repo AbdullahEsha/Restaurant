@@ -44,22 +44,7 @@
     <h1 class="w3-xxxlarge w3-text-grey"><b>Menu List.</b></h1>
     <hr style="width:50px;border:5px solid grey" class="w3-round">
     <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
-    <table id="myTable">
-     <tr class="header">
-       <th>ID</th>
-       <th>Food ID</th>
-       <th>Number of Unit</th>
-       <th>Price(tk)</th>
-       <th>Payment method</th>
-     </tr>
-     <tr>
-       <td>1</td>
-       <td>3</td>
-       <td>4</td>
-       <td>200</td>
-       <td>Bkash</td>
-     </tr>
-   </table>
+    <h1><?=$_SESSION['name']?></h1>
   </div>
 </div>
 

@@ -31,7 +31,7 @@
     </tr>
     <tr align="center">
       <td>Type: <?=$menu[$i]['type']?></td>
-      <td><a href="./consumer/payment.php" id="ord">Order Now</a></td>
+      <td><a href="./consumer/payment.php?id=<?=$menu[$i]['id']?>" id="ord">Order Now</a></td>
     </tr>
   <?php } ?>
   </table>

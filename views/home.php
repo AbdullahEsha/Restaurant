@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 <link rel="stylesheet" href="../assets/css/home.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <body>
 
@@ -13,10 +14,10 @@
 <nav class="w3-sidebar w3-dark-grey w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
   <div class="w3-container">
+    <a href="consumer/allOrders.php"><img src="https://img.icons8.com/ios-glyphs/344/ffffff/user-male-circle.png" alt="logo" height="40px"></a>
     <h3 class="w3-padding-64"><b>XYZ<br>Restaurant</b></h3>
   </div>
   <div class="w3-bar-block">
-    <a href="consumer/allOrders.php" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">My Dashboard</a> 
     <a href="#menuList" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Menu List</a> 
     <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a> 
     <a href="#aboutus" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About Us</a> 
