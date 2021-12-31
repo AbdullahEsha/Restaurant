@@ -1,3 +1,6 @@
+<?php
+    require_once('../../php/session_header.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <title>Foods</title>
